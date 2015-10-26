@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :goals
   resources :user_logs
   root :to => 'static_pages#home'
 
